@@ -25,4 +25,11 @@ IF ERRORLEVEL 0 IF NOT ERRORLEVEL 1 (
   echo Now install old Wi-Fi driver from Windows 7 and everything should be ok.
   echo.
   echo. 
+) ELSE (
+
+echo.
+echo.
+echo !!!!!!Something FAILED!!!!!!
+
 )
+pause
