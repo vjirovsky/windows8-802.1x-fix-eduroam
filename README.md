@@ -7,6 +7,6 @@ Usage
 ==================
 Unpack the directory "build",launch script "windows8-fix.bat" and follow steps in script.
 
-
-
+About
+==================
 Script is using Sudo project (https://github.com/dixcart/Sudo) from github.
