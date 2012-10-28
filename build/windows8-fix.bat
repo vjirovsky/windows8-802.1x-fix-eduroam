@@ -15,7 +15,7 @@ echo.
 echo.
 echo If you have active UAC, click on Yes in next step for permission for this script.
 pause 
-sudo.exe reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching /v SearchOrderConfig /t REG_DWORD /d 1 /f > nul
+sudo.exe reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching /v SearchOrderConfig /t REG_DWORD /d 0 /f > nul
 
 IF ERRORLEVEL 0 IF NOT ERRORLEVEL 1 ( 
   echo.
